@@ -1,0 +1,125 @@
+.machine__item { /* Đã đổi */
+  border: 1px solid #7c8a9736;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Đổi selector từ .car__item-info thành .machine__item-info */
+.machine__item-info span i {
+  color: #f9a826;
+  font-size: 1.1rem;
+}
+
+/* Đổi selector từ .car__item-btn thành .machine__item-btn */
+.machine__item-btn {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: #000d6b;
+  padding: 8px 0px;
+}
+
+/* Áp dụng cho cả hai nút */
+.machine__item-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.machine__item-btn a:hover {
+  color: #fff;
+}
+
+/* Đổi selector từ .car__btn-details thành .machine__btn-details */
+.machine__btn-details {
+  background: #f9a826;
+  border-radius: 0px 4px 4px 0px;
+}
+
+/* Đổi selector từ .car__btn-rent thành .machine__btn-book */
+.machine__btn-book {
+  border-radius: 4px 0px 0px 4px;
+}
+
+/* Đổi selector từ .car__item-content thành .machine__item-content */
+.machine__item-content h4 {
+  font-size: 1.8rem;
+}
+
+/* Đổi selector từ .car__item-content thành .machine__item-content */
+.machine__item-content h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+  /* Đổi selector từ .car__item thành .machine__item */
+  .machine__item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  /* Đổi selector từ .car__item thành .machine__item */
+  .machine__item h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  /* Đổi selector từ .car__item-info thành .machine__item-info */
+  .machine__item-info {
+    flex-wrap: wrap;
+  }
+
+  /* Đổi selector từ .car__item-info thành .machine__item-info */
+  .machine__item-info span {
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+
+  /* Đổi selector từ .car__item-btn thành .machine__item-btn */
+  .machine__item-btn {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Đổi selector từ .car__item thành .machine__item */
+  .machine__item h4 {
+    font-size: 1rem;
+  }
+
+  /* Đổi selector từ .car__item thành .machine__item */
+  .machine__item h6 {
+    font-size: 0.9rem;
+  }
+
+  /* Đổi selector từ .car__item-info thành .machine__item-info */
+  .machine__item-info span {
+    font-size: 0.7rem;
+  }
+
+  /* Đổi selector từ .car__item-info thành .machine__item-info */
+  .machine__item-info span i {
+    font-size: 0.9rem;
+  }
+
+  /* Đổi selector từ .car__item-btn thành .machine__item-btn */
+  .machine__item-btn {
+    font-size: 0.8rem;
+  }
+}
+.add-machine-btn {
+  background-color: #000d6b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-machine-btn:hover {
+  background-color: #014ea0;
+}
